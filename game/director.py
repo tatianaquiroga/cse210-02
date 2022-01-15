@@ -32,6 +32,8 @@ class Director:
         for i in range(13):
             self.cards.append(cards())
 
+class game:
+
     def start_game(self):
         print("Hello, this is HILO game")
         print("You start with 300 points")
